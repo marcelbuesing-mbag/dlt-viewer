@@ -9,7 +9,7 @@ on:
 jobs:
   buildMac:
     name: Build macOS
-    runs-on: macos-13
+    runs-on: macos-13-xlarge
     strategy:
       matrix:
         xcode: [ Xcode_14.3.1 ]
